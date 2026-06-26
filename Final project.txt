@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Construction Company</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>ABC Construction Company</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About the Company</a></li>
+            <li><a href="gallery.php">Gallery</a></li>
+            <li><a href="clients.php">Clients</a></li>
+            <li><a href="news.php">News & Events</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="banner">
+
+    <h2>Building Strong Foundations for a Better Tomorrow</h2>
+
+    <p>
+        ABC Construction Company is committed to providing high-quality
+        residential, commercial, and industrial construction services.
+        We build structures that are safe, durable, and designed to last.
+    </p>
+
+</section>
+
+<section class="container">
+
+<div class="card">
+
+<h2>Welcome to ABC Construction Company</h2>
+
+<p>
+
+Welcome to ABC Construction Company, your trusted partner in delivering quality construction services. Our team of experienced engineers, architects, and skilled workers is dedicated to building residential homes, commercial buildings, roads, bridges, and infrastructure projects that meet the highest standards of quality and safety.
+
+</p>
+
+<p>
+
+For over 15 years, we have successfully completed numerous projects while maintaining our commitment to customer satisfaction, innovation, and excellence.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 align="center">Latest News & Events</h2>
+
+<div class="grid">
+
+<div class="news">
+
+<img src="images/news1.jpg" alt="News 1">
+
+<h3>Construction of New Office Building</h3>
+
+<p>ABC Construction begins its newest office building project.</p>
+
+<a href="news/news1.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news2.jpg" alt="News 2">
+
+<h3>Road Expansion Project</h3>
+
+<p>Major road widening project officially starts.</p>
+
+<a href="news/news2.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news3.jpg" alt="News 3">
+
+<h3>Bridge Completion</h3>
+
+<p>The bridge construction project is now complete.</p>
+
+<a href="news/news3.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news4.jpg" alt="News 4">
+
+<h3>Safety Training</h3>
+
+<p>Employees complete annual safety certification.</p>
+
+<a href="news/news4.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news5.jpg" alt="News 5">
+
+<h3>New Heavy Equipment</h3>
+
+<p>The company purchases new construction machinery.</p>
+
+<a href="news/news5.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news6.jpg" alt="News 6">
+
+<h3>Affordable Housing Project</h3>
+
+<p>Construction begins on a new housing community.</p>
+
+<a href="news/news6.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news7.jpg" alt="News 7">
+
+<h3>School Building Turnover</h3>
+
+<p>ABC Construction completes a new school building.</p>
+
+<a href="news/news7.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news8.jpg" alt="News 8">
+
+<h3>Tree Planting Activity</h3>
+
+<p>Employees participate in an environmental campaign.</p>
+
+<a href="news/news8.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news9.jpg" alt="News 9">
+
+<h3>Hospital Groundbreaking</h3>
+
+<p>Construction starts on a new regional hospital.</p>
+
+<a href="news/news9.php" class="btn">Read More</a>
+
+</div>
+
+<div class="news">
+
+<img src="images/news10.jpg" alt="News 10">
+
+<h3>Company Anniversary Celebration</h3>
+
+<p>Celebrating another successful year of service.</p>
+
+<a href="news/news10.php" class="btn">Read More</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 ABC Construction Company<br>
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+</html>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#2c3e50;
+    color:#fff;
+    padding:20px;
+}
+
+header h1{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+nav ul{
+    list-style:none;
+    text-align:center;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:10px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#f39c12;
+}
+
+.banner{
+    background:#34495e;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.banner h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.banner p{
+    font-size:18px;
+    width:80%;
+    margin:auto;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    padding:40px 0;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.news{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+    padding:15px;
+    text-align:center;
+}
+
+.news img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.news h3{
+    margin:15px 0;
+}
+
+.news p{
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2c3e50;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#f39c12;
+}
+
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+form{
+    width:70%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+input[type="submit"]{
+    background:#2c3e50;
+    color:white;
+    cursor:pointer;
+    border:none;
+}
+
+input[type="submit"]:hover{
+    background:#f39c12;
+}
+
+.gallery img,
+.client img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.gallery-item,
+.client{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+@media(max-width:992px){
+    .grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    nav ul li{
+        display:block;
+        margin:15px 0;
+    }
+
+    .banner h2{
+        font-size:28px;
+    }
+
+    .banner p{
+        width:95%;
+    }
+
+    form{
+        width:95%;
+    }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | ABC Construction Company</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>ABC Construction Company</h1>
+
+<nav>
+<ul>
+
+<li><a href="index.php">Home</a></li>
+<li><a href="about.php">About the Company</a></li>
+<li><a href="gallery.php">Gallery</a></li>
+<li><a href="clients.php">Clients</a></li>
+<li><a href="news.php">News & Events</a></li>
+<li><a href="contact.php">Contact Us</a></li>
+
+</ul>
+</nav>
+
+</header>
+
+<section class="banner">
+
+<h2>About Our Company</h2>
+
+<p>
+Building quality structures with integrity, innovation, and excellence.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Company History</h2>
+
+<p>
+
+ABC Construction Company was established in 2010 with the goal of providing
+high-quality construction services for residential, commercial, and industrial
+projects. Over the years, the company has successfully completed numerous
+buildings, roads, bridges, schools, hospitals, and infrastructure projects.
+
+Our commitment to quality workmanship, safety, and customer satisfaction has
+helped us become one of the most trusted construction companies in the industry.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Mission</h2>
+
+<p>
+
+To provide reliable, innovative, and high-quality construction services while
+ensuring customer satisfaction, safety, and sustainable development in every project.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Vision</h2>
+
+<p>
+
+To become one of the leading construction companies recognized for excellence,
+integrity, innovation, and outstanding engineering solutions.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Why Choose Us?</h2>
+
+<ul>
+
+<li>✔ Over 15 Years of Construction Experience</li>
+
+<li>✔ Highly Skilled Engineers and Architects</li>
+
+<li>✔ Quality Materials and Modern Equipment</li>
+
+<li>✔ On-Time Project Completion</li>
+
+<li>✔ Safety is Our Top Priority</li>
+
+<li>✔ Excellent Customer Service</li>
+
+</ul>
+
+</div>
+
+<h2 align="center">Our Team at Work</h2>
+
+<div class="grid">
+
+<div class="gallery-item">
+
+<img src="images/about1.jpg" alt="Construction Site">
+
+<p>Building Construction</p>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/about2.jpg" alt="Engineers">
+
+<p>Professional Engineers</p>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/about3.jpg" alt="Workers">
+
+<p>Skilled Construction Workers</p>
+
+</div>
+
+<div class="gallery-item">
+
+<img src="images/about4.jpg" alt="Heavy Equipment">
+
+<p>Modern Heavy Equipment</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>
+
+© 2026 ABC Construction Company<br>
+All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+</html>
+
+
+
